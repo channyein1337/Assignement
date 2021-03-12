@@ -7,6 +7,7 @@ def roll_dice():
 
 repeat = True
 while repeat:
+	input("Press ENTER To roll the dice")
 	roll = roll_dice()
 	if roll == 7 or roll == 11:
 		print("You won")
