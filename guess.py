@@ -3,7 +3,7 @@ import random
 def guess(low , high):
     print("Guess a number between {} and {}".format(low,high))
     num = random.randint(low,high)
-    rounds = 10000
+    rounds = 100
     for i in range(rounds):
         guess = input("Enter a number: ")
         try:
